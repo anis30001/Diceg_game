@@ -1,3 +1,5 @@
+package se.anis.diceGame;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -40,7 +42,7 @@ public class game {
     }
     //tillkallar scaner och player ine i handelroll metoden , så jg behöver inte göra en ny kod för varje spelare
 
-    public static void handelRoll(Scanner sc,Player player) {
+    public static void handelRoll(Scanner sc, Player player) {
         System.out.println("next turn "+ player.getName());
         System.out.println("___________");
         System.out.println("press enter to roll");

@@ -1,3 +1,5 @@
+package se.anis.diceGame;
+
 public class Player {
     private String name;
     private int score = 0;
